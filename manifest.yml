@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: gamobile003
+  host: gamobile003
+  disk_quota: 1024M
+  services:
+  - gamobile003-AdvancedMobileAccess
+  - gamobile003-imfpush
+  - gamobile003-cloudantNoSQLDB
